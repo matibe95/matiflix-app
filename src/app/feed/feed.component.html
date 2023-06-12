@@ -1,0 +1,17 @@
+<div>
+  <section class="w-full bg-gray-700 h-[250px]"></section>
+  <section class="px-6 py-4 flex flex-col gap-8">
+    <div class="flex justify-between items-center">
+      <h3 class="font-medium">Most Popular</h3>
+      <select name="" id="" class="px-4 py-2 rounded-md">
+        <option value="Ninguno" selected disabled>Ninguno</option>
+        <option value="Director">Director</option>
+        <option value="Genero">Genero</option>
+        <option value="Año">Año</option>
+      </select>
+    </div>
+    <div class="flex flex-wrap justify-center gap-8">
+      <app-movie-card [movie]="movie" *ngFor="let movie of movies"></app-movie-card>
+    </div>
+  </section>
+</div>
