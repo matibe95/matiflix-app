@@ -1,0 +1,9 @@
+buscar y filtrar películas por: 
+  género,
+  año de lanzamiento,
+  director
+acceder a información detallada de cada película:
+  sinopsis, 
+  elenco, 
+  puntuación,
+agregar películas a una lista de favoritos
