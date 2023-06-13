@@ -9,7 +9,12 @@ import { CustomNavbarComponent } from './custom-navbar/custom-navbar.component';
 import { FeedComponent } from './feed/feed.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule } from '@angular/material/input'
+import { MatInputModule } from '@angular/material/input';
+import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
+import { RatingsComponent } from './ratings/ratings.component';
+import { NotfoundpageComponent } from './notfoundpage/notfoundpage.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component'
 
 @NgModule({
   declarations: [
@@ -18,6 +23,11 @@ import { MatInputModule } from '@angular/material/input'
     CustomNavbarComponent,
     FeedComponent,
     MovieCardComponent,
+    MoviedetailsComponent,
+    RatingsComponent,
+    NotfoundpageComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

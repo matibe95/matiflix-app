@@ -1,5 +1,5 @@
 <div *ngIf="movie">
-  <article class="hover:scale-105 cursor-pointer transition-all bg-gray-600 rounded-t-lg flex flex-col gap-4 w-[300px]">
+  <article (click)="onShowMovieDetails()" class="hover:scale-105 cursor-pointer transition-all bg-gray-600 rounded-t-lg flex flex-col gap-4 w-[300px]">
     <img [src]="movie.Poster" class="rounded-t-lg" alt="Foto de la {{movie.Title}}">
     <section class="flex flex-col px-6 gap-8 pb-4">
       <header>

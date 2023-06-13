@@ -1,3 +1,5 @@
+import { Rating } from "./rating.models"
+
 export interface MovieCard {
   // Id: number;
   Title: string
@@ -7,6 +9,12 @@ export interface MovieCard {
   Director: string
   Poster: string
   Plot: string
+  Ratings: any
+  Country?: string
+  Awards?: string
+  Actors?: string
+  Production?: string
+  // Production?: string
   
   // description: string
   // genero: string

@@ -16,7 +16,7 @@ export class FeedComponent {
   ngOnInit(){
     this.http.get<MovieCard[]>(this.url)
     .subscribe((data)=> {
-      console.log(data)
+      // console.log(data)
       this.movies = data
     })
   }
